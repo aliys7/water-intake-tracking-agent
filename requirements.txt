@@ -1,19 +1,21 @@
 #LLM and AI Agent Frameworks
 langchain==0.1.12
 openai==1.14.1
+langchain_openai
 llama-index
 
 #Backend (API)
 fastapi==0.109.2
 uvicorn===0.27.0.post1
 
-
+ 
 #Database
 sqlalchemy==2.0.27
 
 
 #Environment Variables
 python-dotenv==1.0.1
+dotenv
 
 
 #Logging and Debugging

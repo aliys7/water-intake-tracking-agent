@@ -1,2 +1,45 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+# Conda
+conda/
+conda-meta/
+conda-bld/
+conda-envs/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Data
+data/
+*.sqlite
+*.db
+
+# Environment variables (MOST IMPORTANT!)
 .env
+.env.*
+*.env
+
+# Logs
 *.log
+logs/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
